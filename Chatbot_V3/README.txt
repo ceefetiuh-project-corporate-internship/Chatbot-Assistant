@@ -1,5 +1,6 @@
-OS Linux (ubuntu18.04) or window10
-Python3.6+
+Yêu cầu: OS Linux (ubuntu18.04) or window10
+         Python3.6+
+===> Thực hiện trên linux (ubuntu18.04, python 3.6.9)
 #### cài đặt môi trường ảo để làm việc ngay trong thư mục chatbot_v2
 + sudo apt update
 + sudo -H pip3 install --upgrade pip
