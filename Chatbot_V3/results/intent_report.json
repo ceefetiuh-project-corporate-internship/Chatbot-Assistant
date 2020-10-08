@@ -1,0 +1,87 @@
+{
+  "thank": {
+    "precision": 0.625,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.7407407407407406,
+    "support": 11,
+    "confused_with": {
+      "greet": 1
+    }
+  },
+  "ask_func_list": {
+    "precision": 0.8108108108108109,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.8333333333333334,
+    "support": 35,
+    "confused_with": {
+      "ask_name": 5
+    }
+  },
+  "linh_kien": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "loai_linh_kien": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "ask_name": {
+    "precision": 0.8,
+    "recall": 0.7407407407407407,
+    "f1-score": 0.7692307692307692,
+    "support": 27,
+    "confused_with": {
+      "ask_func_list": 7
+    }
+  },
+  "give_name": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 6,
+    "confused_with": {
+      "thank": 1,
+      "greet": 1
+    }
+  },
+  "bye": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "thank": 5
+    }
+  },
+  "greet": {
+    "precision": 0.8666666666666667,
+    "recall": 1.0,
+    "f1-score": 0.9285714285714286,
+    "support": 13,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.8130841121495327,
+    "recall": 0.8130841121495327,
+    "f1-score": 0.8130841121495327,
+    "support": 107
+  },
+  "macro avg": {
+    "precision": 0.7628096846846848,
+    "recall": 0.7717051467051467,
+    "f1-score": 0.758984533984534,
+    "support": 107
+  },
+  "weighted avg": {
+    "precision": 0.7861686452807948,
+    "recall": 0.8130841121495327,
+    "f1-score": 0.793976393976394,
+    "support": 107
+  }
+}

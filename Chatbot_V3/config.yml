@@ -1,0 +1,26 @@
+#language: "vi"
+
+#pipeline: "supervised_embeddings"
+language: "en"
+pipeline: "pretrained_embeddings_spacy"
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+  - name: MemoizationPolicy
+    max_history: 5
+  - name: KerasPolicy
+    epochs: 200
+    batch_size: 20 
+    featurizer:
+    - name: MaxHistoryTrackerFeaturizer
+      max_history: 5
+      state_featurizer:
+        - name: BinarySingleStateFeaturizer
+  - name: MappingPolicy
+  - name: FallbackPolicy 
+    nlu_threshold: 0.4
+    ambiguity_threshold: 0.1
+    core_threshold: 0.3
+    fallback_action_name: 'utter_unclear'
+

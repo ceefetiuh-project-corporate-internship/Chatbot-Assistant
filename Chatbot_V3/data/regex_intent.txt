@@ -1,0 +1,9 @@
+transistor
+c1815
+bc337
+2n3904
+điện trở
+r100K
+r10K
+r50k
+

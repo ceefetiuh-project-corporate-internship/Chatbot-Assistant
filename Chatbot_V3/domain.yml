@@ -1,0 +1,52 @@
+actions:
+- action_custom_linh_kien
+- action_custom_loai_linh_kien
+- utter_ask_name
+- utter_bye
+- utter_func_list
+- utter_greet
+- utter_greet_with_name
+- utter_thank
+- utter_unclear
+entities:
+- cust_name
+- cust_sex
+- linh_kien
+intents:
+- bye
+- ask_name
+- greet
+- give_name
+- thank
+- ask_func_list
+- loai_linh_kien
+- linh_kien
+responses:
+  utter_ask_name:
+  - text: Tôi tên Bot họ Chat, luôn vui vẻ và nhiệt tình, bạn cần tôi giúp gì không?
+  - text: Em tên Bot họ Chat!
+  utter_bye:
+  - text: Chào tạm biệt {cust_sex} {cust_name} và hẹn gặp lại!
+  - text: Kính chào tạm biệt và chúc quý khách một ngày tốt lành!
+  utter_func_list:
+  - text: Tôi có thể tìm mọi thứ có trong kho cho bạn!
+  utter_greet:
+  - text: Xin chào, hãy cho tôi biết tên của bạn đễ tôi dễ xưng hô nhé.
+  utter_greet_with_name:
+  - text: Chào {cust_sex} {cust_name}. Tecapro-Telecom có thể giúp gì được {cust_sex}
+      {cust_name} ạ?
+  utter_thank:
+  - text: Cảm ơn bạn!
+  - text: Không có gì, đó là trách nhiệm của tôi!
+  utter_unclear:
+  - text: Tôi vẫn chưa hiểu yêu cầu.
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 6
+slots:
+  cust_name:
+    type: text
+  cust_sex:
+    type: text
+  linh_kien:
+    type: unfeaturized

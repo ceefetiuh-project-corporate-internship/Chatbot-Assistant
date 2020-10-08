@@ -1,0 +1,162 @@
+[
+  {
+    "text": "bạn hữu dụng như thế nào",
+    "intent": "ask_func_list",
+    "intent_prediction": {
+      "name": "ask_name",
+      "confidence": 0.48906038058530693
+    }
+  },
+  {
+    "text": "kể cho mình biết những việc bạn có thể làm được nhé",
+    "intent": "ask_func_list",
+    "intent_prediction": {
+      "name": "ask_name",
+      "confidence": 0.4944032449952947
+    }
+  },
+  {
+    "text": "mày biết làm gì",
+    "intent": "ask_func_list",
+    "intent_prediction": {
+      "name": "ask_name",
+      "confidence": 0.5463138797326378
+    }
+  },
+  {
+    "text": "em biết làm gì",
+    "intent": "ask_func_list",
+    "intent_prediction": {
+      "name": "ask_name",
+      "confidence": 0.5740474403359981
+    }
+  },
+  {
+    "text": "biết làm gì",
+    "intent": "ask_func_list",
+    "intent_prediction": {
+      "name": "ask_name",
+      "confidence": 0.5971209668403256
+    }
+  },
+  {
+    "text": "bạn tên gì",
+    "intent": "ask_name",
+    "intent_prediction": {
+      "name": "ask_func_list",
+      "confidence": 0.7478978882681924
+    }
+  },
+  {
+    "text": "tên gì",
+    "intent": "ask_name",
+    "intent_prediction": {
+      "name": "ask_func_list",
+      "confidence": 0.5805352889459924
+    }
+  },
+  {
+    "text": "chị tên gì",
+    "intent": "ask_name",
+    "intent_prediction": {
+      "name": "ask_func_list",
+      "confidence": 0.4531776548593471
+    }
+  },
+  {
+    "text": "để tiện xưng hộ thì tên bạn là gì",
+    "intent": "ask_name",
+    "intent_prediction": {
+      "name": "ask_func_list",
+      "confidence": 0.4439211549775999
+    }
+  },
+  {
+    "text": "được biết tên bạn thì tốt nhỉ",
+    "intent": "ask_name",
+    "intent_prediction": {
+      "name": "ask_func_list",
+      "confidence": 0.6767690927614478
+    }
+  },
+  {
+    "text": "tên bạn",
+    "intent": "ask_name",
+    "intent_prediction": {
+      "name": "ask_func_list",
+      "confidence": 0.5412748518059229
+    }
+  },
+  {
+    "text": "em tên gì",
+    "intent": "ask_name",
+    "intent_prediction": {
+      "name": "ask_func_list",
+      "confidence": 0.4629054764639232
+    }
+  },
+  {
+    "text": "tạm biệt",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.38526225424632227
+    }
+  },
+  {
+    "text": "chào tạm biệt",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.31837637692809956
+    }
+  },
+  {
+    "text": "chào tạm biệt em",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.32290922198243427
+    }
+  },
+  {
+    "text": "tạm biệt em",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.3730694888069135
+    }
+  },
+  {
+    "text": "tạm biệt em nhé",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.39860899251743104
+    }
+  },
+  {
+    "text": "Cô Vân",
+    "intent": "give_name",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.38526225424632227
+    }
+  },
+  {
+    "text": "Chú Hùng",
+    "intent": "give_name",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.41521603941312074
+    }
+  },
+  {
+    "text": "tuyệt",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.41521603941312074
+    }
+  }
+]
